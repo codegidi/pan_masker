@@ -24,5 +24,5 @@ A simple gem to scan a string, find and mask mastercard, visa and verve credit/d
 
 ## How it works
 
-The gem scans a string block for pans of lenght 16 (mastercard and visa) and 19 .
+The gem scans a string block for pans of lenght 16 (mastercard and visa) and 19 and masks them
 
