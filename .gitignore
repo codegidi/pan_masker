@@ -16,3 +16,13 @@ tmp
 .yardoc
 _yardoc
 doc/
+.idea/.name
+.idea/.rakeTasks
+.idea/dictionaries/Olumayowa_Anibaba.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/pan-masker.iml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+.idea/workspace.xml

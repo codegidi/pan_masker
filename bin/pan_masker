@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'pan_masker'
+puts Pan_masker.mask(ARGV[0])
