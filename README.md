@@ -1,4 +1,4 @@
-https://badge.fury.io/rb/pan_masker.png
+{<img src="https://badge.fury.io/rb/pan_masker.png" alt="Gem Version" />}[http://badge.fury.io/rb/pan_masker]
 
 Pan masker
 ==========
