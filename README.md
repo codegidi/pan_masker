@@ -1,3 +1,5 @@
+https://badge.fury.io/rb/pan_masker.png
+
 Pan masker
 ==========
 
