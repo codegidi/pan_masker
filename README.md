@@ -1,7 +1,6 @@
-{<img src="https://badge.fury.io/rb/pan_masker.png" alt="Gem Version" />}[http://badge.fury.io/rb/pan_masker]
-
 Pan masker
 ==========
+<img src="https://badge.fury.io/rb/pan_masker.png" alt="Gem Version" />
 
 A simple gem to scan a string, find and mask mastercard, visa and verve credit/debit card pans.
 
