@@ -29,7 +29,15 @@ A simple gem to scan a string, find and mask mastercard, visa and verve credit/d
         
         Pan_masker.mask('string to be scanned','card type')
 
+Supported card types
+1.Mastercard
+2.Visa
+3.Verve
+4.Maestro
+5.ChinaUnionPay
+
 ## How it works
 
 The gem scans a string block for pans of lenght 16 (mastercard and visa) and 19 and masks them
+
 
