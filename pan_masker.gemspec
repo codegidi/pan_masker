@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name               = "pan_masker"
-  s.version            = "0.2.0"
+  s.version            = "0.2.2"
   s.executables        << 'pan_masker'
   s.authors            = ["Mayowa Anibaba"]
   s.date               = %q{2014-02-03}

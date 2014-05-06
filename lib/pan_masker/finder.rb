@@ -3,7 +3,7 @@ class Pan_masker::Finder
     cardType = cardType.capitalize
     case cardType
       when 'DEFAULT'
-        extractedPans = data.scan(/[\d][0-9]{18}$|[\d][0-9]{15}$|[\d][0-9]{11}$/)
+        extractedPans = data.scan(/[\d][0-9]{11,18}/)
       when 'VERVE'
         extractedPans = data.scan(/[\d][0-9]{18}$/)
       when 'MASTERCARD'
@@ -15,7 +15,7 @@ class Pan_masker::Finder
       when 'CHINAUNIONPAY'
         extractedPans = data.scan(/[\d][0-9]{18}$|[\d][0-9]{15}$/)
       else
-        extractedPans = data.scan(/[\d][0-9]{18}$|[\d][0-9]{15}$|[\d][0-9]{11}$/)
+        extractedPans = data.scan(/[\d][0-9]{11,18}/)
     end
 
     if extractedPans.any?

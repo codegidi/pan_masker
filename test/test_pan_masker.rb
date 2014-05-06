@@ -33,4 +33,8 @@ class PanMaskerTest < Test::Unit::TestCase
   def test_mastercard_pan
     assert_equal "master 16 111111******1111", Pan_masker.mask("master 16 1111111111111111",'mastercard')
   end
+
+  def test_large_text_default
+    assert_equal masked, Pan_masker.mask(text)
+  end
 end
